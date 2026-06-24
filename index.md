@@ -14,5 +14,7 @@ header:
   {% include archive-single.html type="grid" %}
 {% endfor %}
 
-<a href="/blog/" class="btn btn--primary">Vedi tutti gli articoli</a>
+<a href="/#ultimi-articoli" class="btn btn--primary">Vedi tutti gli articoli</a>
+<a href="/about/" class="btn btn--secondary" style="margin-left: 1rem;">Chi sono</a>
+<a href="/resources/" class="btn btn--secondary" style="margin-left: 1rem;">Risorse</a>
 
