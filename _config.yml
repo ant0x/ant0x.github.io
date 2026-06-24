@@ -29,7 +29,7 @@ teaser: /assets/images/teaser-default.jpg
 # Author global
 author:
   name: "Antonio Baldi"
-  avatar: "/assets/images/avatar.svg"
+  avatar: "/assets/images/foto.jpg"
   bio: "Cybersecurity Consultant | CTI • Detection Engineering • Threat Hunting"
   location: "Fisciano, Italy"
   email: "antoniobaldi11@gmail.com"
