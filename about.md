@@ -4,52 +4,25 @@ title: "About"
 permalink: /about/
 ---
 
-<style>
-  .about-shell {
-    display: grid;
-    gap: 1rem;
-    margin-top: 0.5rem;
-  }
-  .about-card {
-    background: #ffffff;
-    border: 1px solid #e2e8f0;
-    border-radius: 16px;
-    padding: 1.1rem 1.2rem;
-    box-shadow: 0 8px 24px rgba(15, 23, 42, 0.05);
-  }
-  .about-card h2 {
-    margin-top: 0;
-    margin-bottom: 0.4rem;
-  }
-  .pill-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.45rem;
-    margin-top: 0.7rem;
-  }
-  .pill {
-    background: #dbeafe;
-    color: #1d4ed8;
-    border-radius: 999px;
-    padding: 0.28rem 0.6rem;
-    font-size: 0.9rem;
-  }
-</style>
-
 # Antonio Baldi
 
 <div class="about-shell">
   <div class="about-card">
-    <h2>Profilo</h2>
-    <p>Cybersecurity Consultant con esperienza in <strong>Threat Intelligence</strong>, <strong>Detection Engineering</strong>, <strong>Threat Hunting</strong>, <strong>SIEM</strong>, <strong>Cloud Security</strong> e <strong>Automation SOC</strong>. Il mio approccio è orientato al <strong>Purple Team</strong>, con attenzione a migliorare rilevazione, risposta e qualità dei dati di sicurezza in ambienti complessi.</p>
+    <h2>Chi sono</h2>
+    <p>Sono un <strong>Cybersecurity Consultant</strong> specializzato in <strong>Cyber Threat Intelligence</strong>, <strong>Detection Engineering</strong>, <strong>Threat Hunting</strong> e <strong>SOAR/SIEM automation</strong>. Il mio lavoro consiste nel trasformare intelligence, indicatori e pattern di attacco in contromisure operative, detections efficaci e processi di risposta più veloci.</p>
+  </div>
+
+  <div class="about-card">
+    <h2>Il mio focus CTI</h2>
+    <p>Mi occupo di analisi di campagne, mapping TTP su MITRE ATT&CK, enrichment IOC, report CTI, threat hunting e integrazione di feed intelligence nei flussi di sicurezza operativa. Mi interessa soprattutto l’aspetto pratico: far sì che l’intelligence diventi azione reale per SOC e team di risposta.</p>
   </div>
 
   <div class="about-card">
     <h2>Esperienze chiave</h2>
     <ul>
-      <li>Consulente cybersecurity presso <strong>RAD Cyber Security</strong>, con focus su <strong>PSD2</strong>, <strong>SOC operations</strong>, <strong>threat hunting</strong>, <strong>SIEM</strong>, <strong>IOC enrichment</strong>, <strong>STIX/TAXII</strong>, <strong>SOAR</strong> e <strong>IAM</strong>.</li>
-      <li>Hardening e ottimizzazione difensiva su <strong>Azure AD/AD</strong>, <strong>Microsoft Defender</strong> e ambienti cloud presso <strong>Cluster Reply</strong>.</li>
-      <li>Esperienza precedente in ambito data quality e analisi dati presso <strong>Appen</strong>.</li>
+      <li>Consulente cybersecurity presso <strong>RAD Cyber Security</strong> con focus su <strong>PSD2</strong>, <strong>SIEM</strong>, <strong>threat hunting</strong>, <strong>IOC enrichment</strong>, <strong>STIX/TAXII</strong>, <strong>SOAR</strong> e <strong>IAM</strong>.</li>
+      <li>Attività di hardening e ottimizzazione difensiva su <strong>Azure AD/AD</strong>, <strong>Microsoft Defender</strong> e cloud presso <strong>Cluster Reply</strong>.</li>
+      <li>Esperienza precedente in ambito data quality e analisi dati presso <strong>Appen</strong>, con forte attenzione a contesti ad alta pressione e output affidabili.</li>
     </ul>
   </div>
 
@@ -70,6 +43,7 @@ permalink: /about/
       <span class="pill">Google Chronicle</span>
       <span class="pill">Threat Hunting</span>
       <span class="pill">MITRE ATT&CK</span>
+      <span class="pill">Sigma</span>
       <span class="pill">SOAR</span>
       <span class="pill">STIX/TAXII</span>
       <span class="pill">Azure</span>
