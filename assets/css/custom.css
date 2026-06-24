@@ -36,6 +36,32 @@ h3 {
   margin-bottom: 0.6rem;
 }
 
+/* Reduce margin-collisions inside the post content */
+.page__content h1,
+.page__content h2,
+.page__content h3,
+.page__content h4,
+.page__content h5,
+.page__content h6 {
+  line-height: 1.25;
+}
+
+.page__content h1 {
+  margin-top: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+.page__content h2 {
+  margin-top: 1.4rem;
+  margin-bottom: 0.7rem;
+}
+
+.page__content h3 {
+  margin-top: 1.05rem;
+  margin-bottom: 0.55rem;
+}
+
+
 /* Links */
 a {
   color: #1d4ed8;
@@ -148,6 +174,27 @@ p {
 .page__content {
   line-height: 1.8;
 }
+
+/* Images inside article content (Minimal Mistakes + custom markdown) */
+.page__content img,
+.page__content figure img,
+.page__content .align-left img,
+.page__content .align-center img,
+.page__content .align-right img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.page__content figure {
+  margin: 1rem 0;
+}
+
+/* Prevent accidental overflow/cropping */
+.page__content {
+  overflow-wrap: break-word;
+}
+
 
 .page__content ol,
 .page__content ul {
