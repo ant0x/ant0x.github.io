@@ -3,12 +3,16 @@ layout: home
 title: "Antonio Baldi — CTI, Threat Hunting & Detection"
 description: "Blog personale su cyber threat intelligence, TTP, IOC, detections e automazione SOC."
 permalink: /
+header:
+  overlay_color: "#0f172a"
+  overlay_filter: 0.4
+  image: /assets/images/avatar.svg
 ---
 
 <div class="hero-card">
   <p class="eyebrow">Cyber Threat Intelligence • Detection Engineering • SOC Automation</p>
   <h1>Antonio Baldi</h1>
-  <p>Questo blog raccoglie analisi CTI, breakdown di TTP, osservazioni su detections, threat hunting e automazione operativa per trasformare intelligence in azione concreta.</p>
+  <p>Questo spazio raccoglie riflessioni, analisi e note tecniche su CTI, TTP, IOC, detections e threat hunting, con l’obiettivo di trasformare l’intelligence in azione concreta.</p>
   <div class="hero-links">
     <a class="button primary" href="/about/">Il mio profilo</a>
     <a class="button secondary" href="/resources/">Risorse CTI</a>
@@ -18,7 +22,7 @@ permalink: /
 <div class="card-grid">
   <div class="info-card">
     <h3>CTI in pratica</h3>
-    <p>Campagne, TTP, IOC, enrichment e report che cercano di essere utili per chi lavora in SOC e incident response.</p>
+    <p>Campagne, TTP, IOC, enrichment e report pensati per essere utili a chi lavora in SOC, detections o incident response.</p>
   </div>
   <div class="info-card">
     <h3>Argomenti principali</h3>
@@ -32,7 +36,7 @@ permalink: /
     </div>
   </div>
   <div class="info-card">
-    <h3>Focus operativo</h3>
+    <h3>Approccio operativo</h3>
     <p>SIEM, detections, cloud security, identity protection e automazione di risposta agli incidenti.</p>
   </div>
 </div>

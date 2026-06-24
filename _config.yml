@@ -3,18 +3,17 @@ description: "Blog personale su threat intelligence, detection engineering e aut
 url: "https://ant0x.github.io"
 baseurl: ""
 repository: "ant0x/ant0x.github.io"
-remote_theme: jekyll-theme-modernist
+remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-include-cache
 
 header_pages:
   - index.md
   - about.md
   - resources.md
-
-theme: jekyll-theme-modernist
 
 # Custom CSS
 sass:
@@ -24,11 +23,12 @@ sass:
 lang: "it"
 timezone: "Europe/Rome"
 show_excerpts: true
+search: true
 
 # Author
 author:
   name: "ant0x"
-  avatar: "/assets/images/avatar.png"
+  avatar: "/assets/images/avatar.svg"
 
 # Build settings
 markdown: kramdown
@@ -57,7 +57,7 @@ defaults:
 minimal_mistakes:
   skin: "default"
   logo:
-    src: "/assets/images/logo.png"
+    src: "/assets/images/logo.svg"
 
 # Exclude from processing
 exclude:
