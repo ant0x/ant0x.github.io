@@ -41,6 +41,8 @@ defaults:
 # Navigation
 header_pages:
   - index.md
+  - about.md
+
 
 # Minimal Mistakes options
 minimal_mistakes:

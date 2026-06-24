@@ -2,11 +2,16 @@
 layout: home
 title: "Antonio Baldi — Threat Intelligence & Hunting"
 description: "Analisi tecniche, TTP, IOC e breakdown operativi."
+permalink: /
 ---
 
 # Antonio Baldi
 
 Cybersecurity specialist focused su **Threat Intelligence**, **Detection Engineering**, **Threat Hunting** e **SOAR/SIEM automation**.
+
+## Da dove iniziare
+- Leggi l’[About](/about/)
+- Visita il [GitHub](https://github.com/ant0x)
 
 ## Topics
 - MITRE ATT&CK & TTP breakdown
@@ -14,10 +19,4 @@ Cybersecurity specialist focused su **Threat Intelligence**, **Detection Enginee
 - SIEM detections & rule tuning
 - Cloud & Identity (IAM) security
 - EDR ecosystems & IR automation
-
-## Quick links
-- [About](/about/)
-- [GitHub](https://github.com/ant0x)
-- [LinkedIn](https://www.linkedin.com/in/antonio-baldi-578763161/)
-- [GitLab](https://gitlab.com/ant0b1/)
 
