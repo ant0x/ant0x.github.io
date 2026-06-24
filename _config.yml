@@ -1,9 +1,9 @@
 title: "ant0x"
-description: "Blog personale su threat intelligence, detection engineering e automazione SOC"
+description: "Cyber Threat Intelligence, Detection Engineering, Threat Hunting & SOC Automation"
 url: "https://ant0x.github.io"
 baseurl: ""
 repository: "ant0x/ant0x.github.io"
-remote_theme: "mmistakes/minimal-mistakes"
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -24,11 +24,31 @@ lang: "it"
 timezone: "Europe/Rome"
 show_excerpts: true
 search: true
+teaser: /assets/images/teaser-default.jpg
 
-# Author
+# Author global
 author:
-  name: "ant0x"
+  name: "Antonio Baldi"
   avatar: "/assets/images/avatar.svg"
+  bio: "Cybersecurity Consultant | CTI • Detection Engineering • Threat Hunting"
+  location: "Fisciano, Italy"
+  email: "antoniobaldi11@gmail.com"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:antoniobaldi11@gmail.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/ant0x"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/antonio-baldi-578763161/"
+    - label: "GitLab"
+      icon: "fab fa-fw fa-gitlab"
+      url: "https://gitlab.com/ant0b1/"
+
+# Minimal Mistakes skin
+minimal_mistakes_skin: "dark"
 
 # Build settings
 markdown: kramdown
@@ -45,21 +65,30 @@ collections:
 
 # Defaults
 defaults:
+  # Posts
   - scope:
       path: ""
-      type: "posts"
+      type: posts
     values:
-      layout: "post"
-      author: "ant0x"
+      layout: single
+      author_profile: true
+      read_time: true
       comments: false
-
-# Minimal Mistakes options
-minimal_mistakes:
-  skin: "default"
-  logo:
-    src: "/assets/images/logo.svg"
+      share: true
+      related: true
+      toc: true
+      toc_sticky: true
+  # Pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: false
 
 # Exclude from processing
 exclude:
   - README.md
   - node_modules
+  - .git
+  - .gitignore

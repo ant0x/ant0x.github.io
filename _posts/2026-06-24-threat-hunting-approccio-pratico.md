@@ -1,11 +1,15 @@
 ---
-layout: post
+layout: single
 title: "Threat Hunting: un approccio pratico per iniziare"
 date: 2026-06-24 13:00:00 +0200
 categories: [threathunting, detection]
 tags: [threat-hunting, hunting, soc]
-author: "ant0x"
+author: "Antonio Baldi"
 summary: "Come avvicinarsi al threat hunting con un metodo semplice, repeatable e orientato ai dati."
+author_profile: true
+toc: true
+toc_sticky: true
+read_time: true
 ---
 
 ## Il punto di partenza

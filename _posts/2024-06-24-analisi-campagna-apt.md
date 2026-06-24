@@ -1,11 +1,15 @@
 ---
-layout: post
+layout: single
 title: "Analisi campagna APT"
 date: 2024-06-24 10:00:00 +0200
 categories: [cti, analisi]
 tags: [APT, threat-intel, italian]
-author: "ant0x"
+author: "Antonio Baldi"
 summary: "Analisi sintetica di una campagna APT osservata su infrastrutture europee."
+author_profile: true
+toc: true
+toc_sticky: true
+read_time: true
 ---
 
 ## Sommario

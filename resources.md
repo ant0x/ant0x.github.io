@@ -23,35 +23,47 @@ permalink: /resources/
   }
 </style>
 
-# Resources
+## Framework e standard
 
-Questa pagina raccoglie riferimenti, framework e strumenti che uso o consiglio per lavorare in ambito CTI, detections e risposta agli incidenti.
+- **[MITRE ATT&CK](https://attack.mitre.org/)** — Framework completo per TTP, tecniche e mapping della difesa
+- **[Sigma](https://sigma.org/)** — Regole di rilevamento portabili tra SIEM e piattaforme
+- **[STIX/TAXII](https://stixproject.github.io/)** — Standard per condividere intelligence e indicatori
+- **[NIST Cybersecurity Framework](https://www.nist.gov/cyberframework)** — Struttura per gestire il rischio cyber
 
-<div class="resource-grid">
-  <div class="resource-card">
-    <h2>Framework e standard</h2>
-    <ul>
-      <li><a href="https://attack.mitre.org/">MITRE ATT&CK</a> — framework per TTP e mappatura delle tecniche.</li>
-      <li><a href="https://sigma.org/">Sigma</a> — regole di rilevamento portabili tra SIEM e piattaforme.</li>
-      <li><a href="https://stixproject.github.io/">STIX/TAXII</a> — standard per condividere intel e indicatori.</li>
-    </ul>
-  </div>
+## Strumenti per enrichment e reputation
 
-  <div class="resource-card">
-    <h2>Strumenti utili</h2>
-    <ul>
-      <li><a href="https://www.virustotal.com/">VirusTotal</a> — analisi e enrichment IOC.</li>
-      <li><a href="https://www.abuseipdb.com/">AbuseIPDB</a> — reputazione IP e indicatori di abuso.</li>
-      <li><a href="https://www.misp-project.org/">MISP</a> — condivisione e correlazione di intel.</li>
-    </ul>
-  </div>
+- **[VirusTotal](https://www.virustotal.com/)** — Analisi file, URL e IP con multiple engine
+- **[AbuseIPDB](https://www.abuseipdb.com/)** — Reputazione IP e database di abusi
+- **[MISP](https://www.misp-project.org/)** — Piattaforma open-source per sharing e correlazione di threat intel
+- **[URLhaus](https://urlhaus.abuse.ch/)** — Database pubblico di URL malevoli
+- **[Shodan](https://www.shodan.io/)** — Search engine per dispositivi IoT e infrastructure
 
-  <div class="resource-card">
-    <h2>Community e learning</h2>
-    <ul>
-      <li><a href="https://github.com/">GitHub</a> — repository, playbooks e codice utile.</li>
-      <li><a href="https://medium.com/">Medium</a> — contenuti tecnici e case studies.</li>
-      <li><a href="https://www.sans.org/">SANS</a> — formazione e deep dive su sicurezza operativa.</li>
-    </ul>
-  </div>
-</div>
+## SIEM e log analysis
+
+- **[Splunk](https://www.splunk.com/)** — SIEM enterprise leader
+- **[Google Chronicle](https://chronicle.security/)** — SIEM cloud-native
+- **[Microsoft Sentinel](https://azure.microsoft.com/en-us/products/microsoft-sentinel/)** — SIEM nativo Azure
+- **[ELK Stack](https://www.elastic.co/what-is/elk-stack)** — Elasticsearch, Logstash, Kibana (open-source)
+
+## EDR e endpoint security
+
+- **[CrowdStrike Falcon](https://www.crowdstrike.com/)** — EDR leader
+- **[Microsoft Defender for Endpoint](https://www.microsoft.com/en-us/security/business/endpoint-security)** — EDR integrato in Microsoft ecosystem
+- **[Trend Micro Apex One](https://www.trendmicro.com/en_us/business/products/user-protection/sps/endpoint.html)** — Protezione endpoint completa
+
+## Community e learning
+
+- **[GitHub](https://github.com/)** — Repository, playbooks e tools open-source
+- **[Medium](https://medium.com/)** — Contenuti tecnici, deep dive e case studies
+- **[SANS Cyber Aces](https://www.sans.org/)** — Training e risorse di sicurezza
+- **[Shodan Academy](https://academy.shodan.io/)** — Lezioni su reconnaissance e OSINT
+
+## Threat intelligence feed
+
+- **[Anomali Feed](https://www.anomali.com/)** — Threat intelligence feed
+- **[AlienVault OTX](https://otx.alienvault.com/)** — Open Threat Exchange
+- **[Abuse.ch](https://abuse.ch/)** — Malware feeds (URLhaus, MalwareBazaar, SSL Blacklist)
+
+---
+
+**Nota**: Questa lista è in continuo aggiornamento. Se hai suggerimenti di risorse utili, contattami.

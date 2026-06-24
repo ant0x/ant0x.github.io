@@ -1,11 +1,15 @@
 ---
-layout: post
+layout: single
 title: "Come strutturare detections SIEM con Sigma"
 date: 2026-06-24 12:00:00 +0200
 categories: [soc, detections]
 tags: [sigma, siem, detection-engineering]
-author: "ant0x"
+author: "Antonio Baldi"
 summary: "Una guida pratica per organizzare detections riconoscibili, portabili e facili da mantenere."
+author_profile: true
+toc: true
+toc_sticky: true
+read_time: true
 ---
 
 ## Perché Sigma
