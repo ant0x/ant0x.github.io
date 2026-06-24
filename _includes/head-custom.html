@@ -1,1 +1,14 @@
 <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+
+<!-- Fixes for theme overlap/layout spacing -->
+<style>
+  /* Prevent accidental absolute-positioning/overlap from custom classes */
+  .btn { position: relative; }
+
+  /* Add predictable spacing between home buttons */
+  .btn.btn--secondary[style] { margin-left: 1rem !important; }
+
+  /* Make avatar image render reliably */
+  img.author__avatar { object-fit: cover; }
+</style>
+
