@@ -3,13 +3,13 @@ description: "Blog personale e analisi CTI"
 url: "https://ant0x.github.io"
 baseurl: ""
 repository: "ant0x/ant0x.github.io"
-remote_theme: jekyll-theme-cayman
+remote_theme: jekyll-theme-modernist
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
 
-theme: jekyll-theme-cayman
+theme: jekyll-theme-modernist
 
 
 # Author
