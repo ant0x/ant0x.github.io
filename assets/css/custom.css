@@ -1,0 +1,41 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background: #f8fafc;
+  color: #0f172a;
+}
+
+.site-title {
+  font-weight: 700 !important;
+  letter-spacing: -0.02em;
+}
+
+.page__content p,
+.page__content li {
+  line-height: 1.75;
+}
+
+.page__content h1,
+.page__content h2,
+.page__content h3 {
+  color: #0f172a;
+}
+
+.page__content a {
+  color: #1d4ed8;
+}
+
+.page__content a:hover {
+  color: #1e40af;
+}
+
+.wrapper {
+  max-width: 980px;
+}
+
+.archive__item {
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  padding: 1rem 1.1rem;
+  background: #fff;
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.04);
+}

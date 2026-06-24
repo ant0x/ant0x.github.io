@@ -1,5 +1,5 @@
 title: "ant0x"
-description: "Blog personale e analisi CTI"
+description: "Blog personale su threat intelligence, detection engineering e automazione SOC"
 url: "https://ant0x.github.io"
 baseurl: ""
 repository: "ant0x/ant0x.github.io"
@@ -9,8 +9,21 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
+header_pages:
+  - index.md
+  - about.md
+  - resources.md
+
 theme: jekyll-theme-modernist
 
+# Custom CSS
+sass:
+  sass_dir: _sass
+
+# General site settings
+lang: "it"
+timezone: "Europe/Rome"
+show_excerpts: true
 
 # Author
 author:
@@ -36,24 +49,15 @@ defaults:
       path: ""
       type: "posts"
     values:
-      layout: "single"
+      layout: "post"
       author: "ant0x"
-
-# Navigation
-header_pages:
-  - index.md
-  - about.md
-
+      comments: false
 
 # Minimal Mistakes options
 minimal_mistakes:
   skin: "default"
   logo:
     src: "/assets/images/logo.png"
-
-# SEO
-plugins:
-  - jekyll-seo-tag
 
 # Exclude from processing
 exclude:
