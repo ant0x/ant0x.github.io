@@ -1,30 +1,58 @@
-title: "Antonio Baldi — Threat Intelligence & Hunting"
-description: "Analisi tecniche, TTP, IOC e breakdown operativi."
-theme: minimal-mistakes-jekyll
-
-markdown: kramdown
-highlighter: rouge
-
+title: "ant0x"
+description: "Blog personale e analisi CTI"
+url: "https://ant0x.github.io"
+baseurl: ""
+repository: "ant0x/ant0x.github.io"
+remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
 
-author:
-  name: "Antonio Baldi"
-  email: "antoniobaldi75@gmail.com"
+theme: "minimal-mistakes-jekyll"
 
+# Author
+author:
+  name: "ant0x"
+  avatar: "/assets/images/avatar.png"
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+permalink: /:categories/:year/:month/:day/:title/
+
+# Collections
 collections:
   posts:
     output: true
 
+# Defaults
 defaults:
   - scope:
       path: ""
-      type: posts
+      type: "posts"
     values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: false
-      share: false
+      layout: "single"
+      author: "ant0x"
+
+# Navigation
+header_pages:
+  - index.md
+
+# Minimal Mistakes options
+minimal_mistakes:
+  skin: "default"
+  logo:
+    src: "/assets/images/logo.png"
+
+# SEO
+plugins:
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - README.md
+  - node_modules
