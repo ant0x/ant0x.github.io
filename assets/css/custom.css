@@ -96,7 +96,8 @@ body {
 .info-card,
 .about-card,
 .resource-card,
-.archive__item {
+.archive__item,
+.home-section {
   background: rgba(255, 255, 255, 0.92);
   border: 1px solid #dbe7ff;
   border-radius: 18px;
@@ -107,7 +108,8 @@ body {
 
 .info-card h3,
 .about-card h2,
-.resource-card h2 {
+.resource-card h2,
+.home-section h2 {
   margin-top: 0;
   margin-bottom: 0.4rem;
 }
@@ -129,20 +131,16 @@ body {
 
 .post-list {
   padding-left: 1rem;
+  margin: 0.4rem 0 0;
 }
 
 .post-list li {
   margin-bottom: 0.6rem;
 }
 
-.about-shell {
-  display: grid;
-  gap: 1rem;
-  margin-top: 0.5rem;
-}
-
+.about-shell,
 .resource-grid {
   display: grid;
   gap: 1rem;
-  margin-top: 0.8rem;
+  margin-top: 0.5rem;
 }
