@@ -1,0 +1,30 @@
+title: "Antonio Baldi — Threat Intelligence & Hunting"
+description: "Analisi tecniche, TTP, IOC e breakdown operativi."
+theme: minimal-mistakes-jekyll
+
+markdown: kramdown
+highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+author:
+  name: "Antonio Baldi"
+  email: "antoniobaldi75@gmail.com"
+
+collections:
+  posts:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: false
